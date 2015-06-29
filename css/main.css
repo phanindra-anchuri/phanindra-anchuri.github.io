@@ -730,3 +730,9 @@ Change widths as necessary
   p, h2, h3 {orphans: 3; widows: 3}
   h2, h3{page-break-after: avoid}
 }
+
+#navlist li {
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
